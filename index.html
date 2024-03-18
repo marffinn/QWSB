@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="data/css/style.css">
+    <title>QW_SB</title>
+</head>
+
+<body>
+
+    <div class="titleBar">
+        <div class="titleBarText">QuakeWorld</div>
+        <div class="closeButton"></div>
+        <div class="minimizeButton"></div>
+    </div>    
+
+    <div class="appBtns">
+        <div class="inAppBtns">
+            <div class="refreshBtn refreshTopServer topTabActive">Server list</div>
+            <div class="refreshBtn refreshTopPlayer">Player list</div>
+            <div class="refreshBtn refreshTopFavs">Favourites</div>
+        </div>
+        <div class="progressBar"><b> Refresh masters... </b> <span></span> </div>
+    </div>
+
+    <div class="appMain">
+
+        <div class="appServers appActiveTab">
+            <ul class="myHeader">
+                <span class="headServerName">Name</span>
+                <span class="headServerPing">Ping</span>
+                <span class="headServerMap">Map</span>
+                <span class="headServerPlayers">Players</span>
+            </ul>
+            <ul class="appServerList"></ul> 
+        </div>
+
+        <div class="appPlayers">
+            <div class="myHeader">
+                <span class="headPlayer">player</span>
+                <span class="headPing">ping</span>
+                <span class="headPlayerServer">@ server</span>
+            </div>
+            <ul class="appPlayerList"></ul> 
+        </div>
+
+        <div class="appFavourites">
+            <ul class="myHeader">
+                <span class="headServerName">Name</span>
+                <span class="headServerPing">Ping</span>
+                <span class="headServerMap">Map</span>
+                <span class="headServerPlayers">Players</span>
+            </ul>
+            <ul class="appFavouritesList"></ul> 
+        </div>
+
+    </div>
+
+    <script src="renderer.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "name": "qwsvsb",
+  "version": "1.0.0",
+  "description": "QuakeWorld Server Browser App",
+  "main": "main.js",
+  "dependencies": {
+    "core-util-is": "^1.0.3",
+    "electron": "^16.0.5",
+    "end-of-stream": "^1.4.4",
+    "jquery": "^3.6.0",
+    "node-notifier": "^10.0.1",
+    "prepend-http": "^2.0.0",
+    "process-nextick-args": "^2.0.1",
+    "safe-buffer": "^5.1.2",
+    "serialize-error": "^7.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marffinn/qwsb"
+  },
+  "keywords": [
+    "quakeworld",
+    "qw",
+    "quake",
+    "quake one",
+    "quake1",
+    "server",
+    "browser",
+    "server browser",
+    "SB",
+    "sb"
+  ],
+  "author": "Tomasz (marffinn) Drozdowski",
+  "license": "MIT"
+}
